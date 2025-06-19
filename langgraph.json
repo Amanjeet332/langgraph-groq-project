@@ -1,0 +1,6 @@
+{
+  "graphs": {
+    "default": "graph_runner:graph"
+  },
+  "dependencies": ["langchain", "langgraph", "langchain-openai"]
+}
