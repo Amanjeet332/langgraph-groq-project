@@ -1,6 +1,7 @@
 {
   "graphs": {
-    "default": "graph_runner:graph"
+    "main": "graph_runner:graph",
+    "default": "agent:graph"
   },
   "dependencies": ["langchain", "langgraph", "langchain-openai"]
 }
