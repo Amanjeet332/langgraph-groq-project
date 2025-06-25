@@ -9,7 +9,7 @@ def multiply(a: int, b: int) -> int:
 
 llm = ChatOpenAI(
     model="llama3-70b-8192",
-    openai_api_key="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",
+    openai_api_key="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",
     openai_api_base="https://api.groq.com/openai/v1"
 )
 llm_with_tools = llm.bind_tools([multiply])
